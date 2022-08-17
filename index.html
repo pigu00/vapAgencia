@@ -1,6 +1,4 @@
-
-
-<!DOCTYPE html>
+<!doctype html>
 <html class="no-js" lang="en">
 <head>
   <!-- Meta Tags -->
@@ -21,6 +19,9 @@
   <link rel="stylesheet" href="css/owlCarousel.min.css">
   <link rel="stylesheet" href="css/animate.min.css">
   <link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
 </head>
 
 <body class="home">
@@ -44,15 +45,34 @@
   <!-- End Preloader -->
 
   <!-- Start Site Header -->
-  <div class="height80"></div>
-  <header class="site-header">
-    <div class="header-wrap style2">
+  <header class="site-header transparent-header">
+    <div class="top-header style1">
+      <div class="container">
+        <div class="top-header-in">
+          <div class="top-header-left">
+            <ul class="header-list style1">
+              <li><span class="list-title"><i class="fa fa-whatsapp"></i></span><a href="#" class="info-title">+54 2494 681718 </a></li>
+              <li><span class="list-title"><i class="fa fa-envelope-o"></i></span><a href="#" class="info-title">info@vap.com.ar</a></li>
+            </ul>
+          </div>
+          <div class="top-header-right">
+            <ul class="header-social style1">
+              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                       </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-wrap style1">
       <div class="container">
         <div class="header-in">
           <div class="site-branding">
             <!-- For Image Logo -->
             <a href="index.html" class="custom-logo-link">
-              <img src="img/logo.png" alt="Image" class="custom-logo">
+              <img src="img/logo1.png" alt="Image" class="custom-logo">
             </a>
             <!-- For Site Title -->
             <!-- <span class="site-title">
@@ -61,7 +81,7 @@
           </div>
           <nav class="primary-nav">
             <div class="m-menu-btn" id="m-menu-btn"><span></span></div>
-            <ul class="primary-nav-list" id="primary-nav-list">
+            <ul class="primary-nav-list onepage-nav" id="primary-nav-list">
               <li class="menu-item menu-item-has-children current-menu-ancestor current-menu-parent"><a href="#home">Home</a>
                 <ul>
                   <li class="menu-item current-menu-item"><a href="index.html">Home 1</a></li>
@@ -107,11 +127,6 @@
               <li class="menu-item"><a href="#testimonial">Testimonial</a></li>
               <li class="menu-item"><a href="#contact">Contact</a></li>
             </ul>
-            <div class="sp-phone">
-              <img src="img/phone-icon.png" alt="Image">
-              <span>It's toll free</span>
-              <div class="sp-phone-no">+88 154 54 125</div>
-            </div>
           </nav>
         </div>
       </div><!-- .header-wrap -->
@@ -120,44 +135,50 @@
   <!-- End Site Header -->
   <div class="main-content">
     <!-- Start Hero Section -->
-    <section class="hero creative-hero1" id="home">
-      <div class="container">
-        <div class="hero-text black-color">
-          <h1>We Build Your Dream</h1>
-          <h4>Over twenty years biboo lead the construction business<br>We know how to build a perfect dream project.</h4>
-          <a href="https://www.youtube.com/embed/C0Wz_y-CCPs?autoplay=1" class="t-btn hero-btn video-open"><i class="fa fa-play-circle"></i>Watch Video</a>
-        </div>
-      </div>
-      <div class="hero-animation1">
-        <div class="shap1"></div>
-        <div class="shap2"></div>
-        <div class="shap3"></div>
-        <div class="shap4"></div>
-        <div class="shap5"></div>
-        <div class="shap6"></div>
-      </div>
-      <div class="hero-c-img"><img src="img/hero-img1.jpg" alt="Image"></div>
-    </section>
-    <!-- End Hero Section -->
-
-    <!-- Start Our Partners -->
-    <div class="partner-logo-wrap ">
-      <div class="container">
-        <div class="owl-carousel partner-logo" id="partner-logo">
-          <a href="#"><img src="img/clients/01.png" alt="Image"></a>
-          <a href="#"><img src="img/clients/02.png" alt="Image"></a>
-          <a href="#"><img src="img/clients/03.png" alt="Image"></a>
-          <a href="#"><img src="img/clients/04.png" alt="Image"></a>
-          <a href="#"><img src="img/clients/05.png" alt="Image"></a>
-          <a href="#"><img src="img/clients/01.png" alt="Image"></a>
-          <a href="#"><img src="img/clients/02.png" alt="Image"></a>
-          <a href="#"><img src="img/clients/03.png" alt="Image"></a>
-          <a href="#"><img src="img/clients/04.png" alt="Image"></a>
-          <a href="#"><img src="img/clients/05.png" alt="Image"></a>
-        </div><!-- .partner-logo -->
-      </div>
+    <div id="home">
+      <section class="owl-carousel hero-slider hero-slider-v2" id="hero-slider-v2">
+        <div class="single-slid">
+          <div class="bg-img lazy" data-src="img/slider/04.jpg"></div>
+          <div class="slider-overlay"></div>
+          <div class="container">
+            <div class="hero-text text-center">
+              <h1>Arrancá hoy <br>tu proyecto</h1>
+              <h4>Over twenty years biboo lead the construction business<br>We know how to build a perfect dream project.</h4>
+              <div class="hero-btn-wrap">
+              	<a href="#" class="t-btn hero-btn">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div><!-- .single-slid -->
+        <div class="single-slid">
+          <div class="bg-img lazy" data-src="img/slider/11.jpg"></div>
+          <div class="slider-overlay"></div>
+          <div class="container">
+            <div class="hero-text text-center">
+              <h1>We Build <br>Your Dream</h1>
+              <h4>Over twenty years biboo lead the construction business<br>We know how to build a perfect dream project.</h4>
+              <div class="hero-btn-wrap">
+              	<a href="#" class="t-btn hero-btn">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div><!-- .single-slid -->
+        <div class="single-slid">
+          <div class="bg-img lazy" data-src="img/slider/12.jpg"></div>
+          <div class="slider-overlay"></div>
+          <div class="container">
+            <div class="hero-text text-center">
+              <h1>We Know<br>Your Feelings</h1>
+              <h4>Over twenty years biboo lead the construction business<br>We know how to build a perfect dream project.</h4>
+              <div class="hero-btn-wrap">
+              	<a href="#" class="t-btn hero-btn">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div><!-- .single-slid -->
+      </section>
     </div>
-    <!-- End Our Partners -->
+    <!-- End Hero Section -->
 
     <!-- Start About Section -->
     <section class="about-wrap section" id="about">
@@ -197,9 +218,9 @@
       </div>
     </section>
     <!-- End About Section -->
-    <hr>
+
     <!-- Start Service Sectinn -->
-    <section class="service section service-v1" id="services">
+    <section class="service section gray-bg service-v1" id="services">
       <div class="container">
         <div class="section-header type1">
           <h2>Services We Provide</h2>
@@ -266,7 +287,7 @@
       </div>
     </section>
     <!-- End Service Sectinn -->
-    <hr>
+
     <!-- Start Project Section -->
     <section class="project home-project-v2 section" id="projects">
       <div class="container">
@@ -447,57 +468,60 @@
         </div>
         <div class="row flex">
           <div class="col-lg-4">
-            <article class="post">
+            <div class="post style1">
               <div class="zoom-effect">
                 <a href="blog-details-right-sidebar.html" class="post-thumbnail zoom-effect-in"><img src="img/blog/03.jpg" alt="Image"></a>
               </div>
               <div class="post-details-wrap">
-                <div class="byline">
-                  <span class="author"><a href="#">Admin</a></span>
-                  <span class="comment"><a href="">3</a></span>
-                  <span class="posted-on"><a href="#">10 Jan</a></span>
-                </div>
                 <h2 class="entry-title"><a href="blog-details-right-sidebar.html">How to construct beautiful houses as you were very cheap to build.</a></h2>
+                <div class="byline">
+                  <span class="author"><a href="#">Mak Raian</a></span> on
+                  <span class="comment">Nov 13 2018</span>
+                </div>
+                <div class="blog-text">Raising a heavy fur muff that covered the whole of her lower arm towards</div>
+                <a href="blog-details-right-sidebar.html" class="read-btn">Read More <i class="fa fa-angle-right"></i></a>
               </div>
-            </article>
+            </div>
           </div><!-- .col -->
           <div class="col-lg-4">
-            <article class="post">
+            <div class="post style1">
               <div class="zoom-effect">
                 <a href="blog-details-right-sidebar.html" class="post-thumbnail zoom-effect-in"><img src="img/blog/04.jpg" alt="Image"></a>
               </div>
               <div class="post-details-wrap">
-                <div class="byline">
-                  <span class="author"><a href="#">Admin</a></span>
-                  <span class="comment"><a href="">3</a></span>
-                  <span class="posted-on"><a href="#">14 Feb</a></span>
-                </div>
                 <h2 class="entry-title"><a href="blog-details-right-sidebar.html">Built your beautiful houses with latest technology which we use to build.</a></h2>
+                <div class="byline">
+                  <span class="author"><a href="#">Jhon Doe</a></span> on
+                  <span class="comment">Nov 10 2018</span>
+                </div>
+                <div class="blog-text">Raising a heavy fur muff that covered the whole of her lower arm towards</div>
+                <a href="blog-details-right-sidebar.html" class="read-btn">Read More <i class="fa fa-angle-right"></i></a>
               </div>
-            </article>
+            </div>
           </div><!-- .col -->
           <div class="col-lg-4">
-            <article class="post">
+            <div class="post style1">
               <div class="zoom-effect">
                 <a href="blog-details-right-sidebar.html" class="post-thumbnail zoom-effect-in"><img src="img/blog/05.jpg" alt="Image"></a>
               </div>
               <div class="post-details-wrap">
-                <div class="byline">
-                  <span class="author"><a href="#">Admin</a></span>
-                  <span class="comment"><a href="">3</a></span>
-                  <span class="posted-on"><a href="#">20 Apr</a></span>
-                </div>
                 <h2 class="entry-title"><a href="blog-details-right-sidebar.html">The Best Architecture Projects of the 21st Century is this.</a></h2>
+                <div class="byline">
+                  <span class="author"><a href="#">Cres Gail</a></span> on
+                  <span class="comment">Dec 19 2018</span>
+                </div>
+                <div class="blog-text">Raising a heavy fur muff that covered the whole of her lower arm towards</div>
+                <a href="blog-details-right-sidebar.html" class="read-btn">Read More <i class="fa fa-angle-right"></i></a>
               </div>
-            </article>
+            </div>
           </div><!-- .col -->
         </div>
       </div>
     </section>
     <!-- End home-blog -->
-    <hr>
+
     <!-- Start Testimonial -->
-    <section class="testimonial-wrap section" id="testimonial">
+    <section class="testimonial-wrap section gray-bg" id="testimonial">
       <div class="container">
         <div class="section-header type1">
           <h2>What Client Say?</h2>
@@ -546,11 +570,11 @@
       </div>
     </section>
     <!-- End Testimonial -->
-    <hr>
+
     <!-- Start Contact Section -->
     <section class="contact section" id="contact">
       <div class="container">
-        <div class="section-header type1">
+      	<div class="section-header type1">
           <h2>Contact Us Now</h2>
           <div class="section-divider"><span></span></div>
         </div>
@@ -753,7 +777,7 @@
 
   <!-- Scroll Up Button -->
   <span class='scrollup' id="scrollup"></span>
-  
+
   <!-- Scripts -->
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="js/vendor/jquery-1.12.4.min.js"></script>
